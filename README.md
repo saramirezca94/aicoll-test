@@ -3,18 +3,21 @@ This is the code test for Aicoll
 Steps to run the app
 
 *   clone the repository
+  
+*   create a .env in the root of your code folder  
     
-*   composer install
+*   run composer install
     
-*   npm install
+*   run npm install
     
-*   npm run dev
+*   run npm run dev
+
+*   run php artisan migrate
     
 *   npm run watch
-    
-*   php artisan migrate
-    
 
+Requirements: Laravel ^8.75; PHP ^7.3|^8.0; Vue ^2.6.12; toastr ^2.1.4
+        
 API documentation:
 
 [https://documenter.getpostman.com/view/24730021/2s9YyzcHYh](https://documenter.getpostman.com/view/24730021/2s9YyzcHYh)
